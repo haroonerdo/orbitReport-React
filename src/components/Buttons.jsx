@@ -10,7 +10,6 @@ const Buttons = ({ filterByType, setSat, displaySats }) => {
   //});
   return (
     <div className="flex-container">
-      
       <button onClick={() => setSat(satData)}>Low Orbits</button>
       <button onClick={() => setSat(satData)}>Medium Orbits</button>
       <button onClick={() => setSat(satData)}>High Orbits</button>
