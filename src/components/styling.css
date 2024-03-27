@@ -1,6 +1,9 @@
-h1 {
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
+header {
+  padding: 50px;
   text-align: center;
+  background: #5c94ce;
+  color: white;
+  font-size: 60px;
 }
 
 p {
@@ -23,6 +26,9 @@ button {
 
 button:hover {
   background-color: teal;
+  text-decoration: underline;
+  font-size: 19px;
+  font-weight: bold;
 }
 
 .flex-container {
@@ -59,10 +65,5 @@ td {
   padding: 8px;
 }
 
-h1 {
-  padding: 50px;
-  text-align: center;
-  background: #5c94ce;
-  color: white;
-  font-size: 60px;
-}
+
+
